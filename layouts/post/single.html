@@ -17,6 +17,7 @@
     <div itemprop="articleBody">
       {{ .Content }}
     </div>
+    {{ partial "post/return-link.html" . }}
     {{ if .Site.DisqusShortname }}
       <article>
         <hr>
